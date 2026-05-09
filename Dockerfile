@@ -37,7 +37,7 @@ RUN tar xzvf apache-maven-3.9.9-bin.tar.gz
 ENV PATH="/home/apache-maven-3.9.9/bin:${PATH}"
 RUN rm apache-maven-3.9.9-bin.tar.gz
 
-RUN git clone https://github.com/hx062312/x2cangjie.git /home/x2cangjie
+RUN git clone https://github.com/sskacc/x2cangjie.git /home/x2cangjie
 
 WORKDIR /home/x2cangjie
 
